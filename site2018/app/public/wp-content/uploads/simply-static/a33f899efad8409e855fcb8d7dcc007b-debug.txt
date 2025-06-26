@@ -1,0 +1,432 @@
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-06-16 18:13:24] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-06-16 18:13:24] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604\
+[2025-06-16 18:13:24] [class-ss-setup-task.php:72] Adding origin URL to queue: http://site2018.local/
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-16 18:13:24] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-16 18:13:24] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-06-16 18:13:24] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/
+[2025-06-16 18:13:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-06-16 18:13:24] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:13:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505ec42b390-eTKDRw.tmp
+[2025-06-16 18:13:24] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/?simply_static_page=1
+[2025-06-16 18:13:24] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/?simply_static_page=1
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:103] Filesize: 38134 bytes
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505ec42b390-eTKDRw.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/index.html
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:159] Adding 25 URLs to the queue
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:13:29] [class-ss-page.php:119] Checking Content Identical:f6bfd6c8c57390a8715285c319cef3c8f3d28980===. Value: FALSE
+[2025-06-16 18:13:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-06-16 18:13:29] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-16 18:13:29] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-16 18:13:29] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 25
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/logo.svg
+[2025-06-16 18:13:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 26
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505ec9af023-srMVH0.tmp
+[2025-06-16 18:13:29] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/logo.svg?simply_static_page=2
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/logo.svg?simply_static_page=2
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:103] Filesize: 1961 bytes
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/logo.svg
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505ec9af023-srMVH0.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/logo.svg
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:13:29] [class-ss-page.php:119] Checking Content Identical:7dd0a29ac7125911425768ac92e4e81b568e1871===. Value: FALSE
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/siacom_box.png
+[2025-06-16 18:13:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 26
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505ec9ba78a-ZyhHQj.tmp
+[2025-06-16 18:13:29] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/siacom_box.png?simply_static_page=3
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/siacom_box.png?simply_static_page=3
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:103] Filesize: 140509 bytes
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2017/12/siacom_box.png
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505ec9ba78a-ZyhHQj.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/uploads/2017/12/siacom_box.png
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:13:29] [class-ss-page.php:119] Checking Content Identical:df35ea5ee04eae5bc73e366ae4fae1f34a971fa4===. Value: FALSE
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/icon_registro.svg
+[2025-06-16 18:13:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 26
+[2025-06-16 18:13:29] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505ec9c3a99-wogsAl.tmp
+[2025-06-16 18:13:29] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/icon_registro.svg?simply_static_page=4
+[2025-06-16 18:13:29] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/icon_registro.svg?simply_static_page=4
+[2025-06-16 18:13:59] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-06-16 18:13:59] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received
+[2025-06-16 18:13:59] [class-ss-url-fetcher.php:107] object(WP_Error)#1691 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-06-16 18:13:59] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/icon_controle.svg
+[2025-06-16 18:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 26
+[2025-06-16 18:13:59] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505ee7cf0d9-szdZNC.tmp
+[2025-06-16 18:13:59] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/icon_controle.svg?simply_static_page=5
+[2025-06-16 18:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/icon_controle.svg?simply_static_page=5
+[2025-06-16 18:14:00] [class-ss-url-fetcher.php:103] Filesize: 38134 bytes
+[2025-06-16 18:14:00] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-16 18:14:00] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-16 18:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505ee81dec7-TptxJC.tmp
+[2025-06-16 18:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/icon_controle.svg
+[2025-06-16 18:14:30] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-06-16 18:14:30] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30011 milliseconds with 0 bytes received
+[2025-06-16 18:14:30] [class-ss-url-fetcher.php:107] object(WP_Error)#1691 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30011 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-06-16 18:14:30] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/icon_visualizacao.svg
+[2025-06-16 18:14:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 26
+[2025-06-16 18:14:30] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:14:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f062561e-HuntrO.tmp
+[2025-06-16 18:14:30] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/icon_visualizacao.svg?simply_static_page=6
+[2025-06-16 18:14:30] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/icon_visualizacao.svg?simply_static_page=6
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30012 milliseconds with 0 bytes received
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:107] object(WP_Error)#1920 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30012 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/laptop_00.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f242fcfd-C0Sfr7.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/laptop_00.png?simply_static_page=7
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/laptop_00.png?simply_static_page=7
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 404866 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/laptop_00.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f242fcfd-C0Sfr7.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/laptop_00.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:a9a63d911c3625cebdac4b867d61f1382349fdd9===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/siacom_box.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f243ee25-oiz4kk.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/siacom_box.png?simply_static_page=8
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/siacom_box.png?simply_static_page=8
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 140509 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/siacom_box.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f243ee25-oiz4kk.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/siacom_box.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:df35ea5ee04eae5bc73e366ae4fae1f34a971fa4===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/logo_fenosa-3.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f244707e-4fQTsr.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/logo_fenosa-3.png?simply_static_page=9
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/logo_fenosa-3.png?simply_static_page=9
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 17086 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2017/12/logo_fenosa-3.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f244707e-4fQTsr.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/uploads/2017/12/logo_fenosa-3.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:c13c735b388e440b9df7d47a3c2833fb3a490655===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/logo_gasindur.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f2454e61-nkLTDq.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/logo_gasindur.png?simply_static_page=10
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/logo_gasindur.png?simply_static_page=10
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 17136 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2017/12/logo_gasindur.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f2454e61-nkLTDq.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/uploads/2017/12/logo_gasindur.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:16a75f580ad549dd5f824dd0cd69f3e44cf2cbcb===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/logo_uerj.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f245c8b6-o5wENZ.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/logo_uerj.png?simply_static_page=11
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/logo_uerj.png?simply_static_page=11
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 18851 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2017/12/logo_uerj.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f245c8b6-o5wENZ.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/uploads/2017/12/logo_uerj.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:8f8f60800630a1c9411207a207c25b921d494be3===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/uploads/2017/12/logo_ic_supply.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f246861b-oonYRf.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/uploads/2017/12/logo_ic_supply.png?simply_static_page=12
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/uploads/2017/12/logo_ic_supply.png?simply_static_page=12
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 20639 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2017/12/logo_ic_supply.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f246861b-oonYRf.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/uploads/2017/12/logo_ic_supply.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:b90fb443170cb680d944c641946803976187ccef===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/logotipo_hera_2017_white.svg
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f246f174-LDc2vG.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/logotipo_hera_2017_white.svg?simply_static_page=13
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/logotipo_hera_2017_white.svg?simply_static_page=13
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 1676 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/logotipo_hera_2017_white.svg
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f246f174-LDc2vG.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/logotipo_hera_2017_white.svg
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:f1ba5ddc6faa13f69189d8645192bbc2f1ab561a===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/icon_tel.svg
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f247ce04-L8os6R.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/icon_tel.svg?simply_static_page=14
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/icon_tel.svg?simply_static_page=14
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 431 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/icon_tel.svg
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f247ce04-L8os6R.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/icon_tel.svg
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:5209d2649ebdb091dd196569c7187f0d92f48c17===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/icon_email.svg
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24888ec-uPIO18.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/icon_email.svg?simply_static_page=15
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/icon_email.svg?simply_static_page=15
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 306 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/icon_email.svg
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24888ec-uPIO18.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/icon_email.svg
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:34ddec8780e86735606d985af83dfe25127eba68===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/icon_address.svg
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f248f078-bmOLHH.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/icon_address.svg?simply_static_page=16
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/icon_address.svg?simply_static_page=16
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 561 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/icon_address.svg
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f248f078-bmOLHH.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/icon_address.svg
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:4bb064914027275fe27b2c83766d237a51fed558===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/a.png
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24963b1-CGkL6P.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/a.png?simply_static_page=17
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/a.png?simply_static_page=17
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 2529 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/a.png
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24963b1-CGkL6P.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/a.png
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:89ed736667239bc0fba22adf1c96e485372b7d89===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/js/scrolling-nav.js
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f249fbc5-QrvDIb.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/js/scrolling-nav.js?simply_static_page=18
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/js/scrolling-nav.js?simply_static_page=18
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 801 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/js/scrolling-nav.js
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f249fbc5-QrvDIb.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/js/scrolling-nav.js
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:3279b70db8b295b67f15e6edb5d8cbe29d94c678===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/js/settings.js
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24ab3ff-LNZtCk.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/js/settings.js?simply_static_page=19
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/js/settings.js?simply_static_page=19
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 1379 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/js/settings.js
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24ab3ff-LNZtCk.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/js/settings.js
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:eb21c614bc82f11bb011fdfc05509f7f83931a90===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-includes/css/dist/block-library/style.min.css
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24b745c-2IQCjA.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=20
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=20
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 116363 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24b745c-2IQCjA.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-includes/css/dist/block-library/style.min.css
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:8c82643ef63a8389c1b800b7c5d0af9d684b8b24===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-json/
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://site2018.local/wp-json/
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/xmlrpc.php
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://site2018.local/xmlrpc.php
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/style.css
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24c9296-VVf5rr.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/style.css?simply_static_page=23
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/style.css?simply_static_page=23
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 194 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/style.css
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24c9296-VVf5rr.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/style.css
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:1171ff339c8496fd4379ceb1435129744b80fed4===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/css/style.css
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24d5b4a-tWnJMe.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/css/style.css?simply_static_page=24
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/css/style.css?simply_static_page=24
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:103] Filesize: 14556 bytes
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/css/style.css
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24d5b4a-tWnJMe.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/css/style.css
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:00] [class-ss-page.php:119] Checking Content Identical:5ec0d3c44cf70fdc7251f59e9af2f8d21133bdf6===. Value: FALSE
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/css/scrolling-nav.css
+[2025-06-16 18:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2025-06-16 18:15:00] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f24eca17-Ops7RC.tmp
+[2025-06-16 18:15:00] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/css/scrolling-nav.css?simply_static_page=25
+[2025-06-16 18:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/css/scrolling-nav.css?simply_static_page=25
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:103] Filesize: 1457 bytes
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/css/scrolling-nav.css
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f24eca17-Ops7RC.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/css/scrolling-nav.css
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:01] [class-ss-page.php:119] Checking Content Identical:00fea20d81186b5c5839b602d891a5d710705319===. Value: FALSE
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/favicon.ico
+[2025-06-16 18:15:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f250738d-TuOO5T.tmp
+[2025-06-16 18:15:01] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/favicon.ico?simply_static_page=26
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/favicon.ico?simply_static_page=26
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:103] Filesize: 1150 bytes
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/x-icon
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/favicon.ico
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f250738d-TuOO5T.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/favicon.ico
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:01] [class-ss-page.php:119] Checking Content Identical:7b453ad50682172a1173685e299f848456e8c8d0===. Value: FALSE
+[2025-06-16 18:15:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 26 pages/files
+[2025-06-16 18:15:01] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-16 18:15:01] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-16 18:15:01] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:69] Total pages: 30; Pages remaining: 4
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/apoio_title.png
+[2025-06-16 18:15:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 30
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f253cbec-8sil2J.tmp
+[2025-06-16 18:15:01] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/apoio_title.png?simply_static_page=27
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/apoio_title.png?simply_static_page=27
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:103] Filesize: 934 bytes
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/apoio_title.png
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f253cbec-8sil2J.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/apoio_title.png
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:01] [class-ss-page.php:119] Checking Content Identical:6eb0a30c383be1d8f43faea23e2c15ca2400cc6c===. Value: FALSE
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/bg_pattern_01.png
+[2025-06-16 18:15:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 30
+[2025-06-16 18:15:01] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f254bef2-k48RH9.tmp
+[2025-06-16 18:15:01] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/bg_pattern_01.png?simply_static_page=28
+[2025-06-16 18:15:01] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/bg_pattern_01.png?simply_static_page=28
+[2025-06-16 18:15:07] [class-ss-url-fetcher.php:103] Filesize: 38134 bytes
+[2025-06-16 18:15:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-16 18:15:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-16 18:15:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f2b28514-j0eX5l.tmp
+[2025-06-16 18:15:07] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/bg_pattern_01.png
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:107] object(WP_Error)#1704 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/bullet.svg
+[2025-06-16 18:15:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 30
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f4931155-n5BC4X.tmp
+[2025-06-16 18:15:37] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/bullet.svg?simply_static_page=29
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/bullet.svg?simply_static_page=29
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:103] Filesize: 465 bytes
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/bullet.svg
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f4931155-n5BC4X.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/bullet.svg
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:37] [class-ss-page.php:119] Checking Content Identical:e17ffe21532a87c95c9e4a2b5dc84dfaea211e77===. Value: FALSE
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:73] URL: http://site2018.local/wp-content/themes/hera/images/contato_bg.jpg
+[2025-06-16 18:15:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 30
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68505f493dfe4-YO3uBI.tmp
+[2025-06-16 18:15:37] [class-ss-page-handler.php:38] URL Prepared:http://site2018.local/wp-content/themes/hera/images/contato_bg.jpg?simply_static_page=30
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:251] Fetching URL: http://site2018.local/wp-content/themes/hera/images/contato_bg.jpg?simply_static_page=30
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:103] Filesize: 76024 bytes
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hera/images/contato_bg.jpg
+[2025-06-16 18:15:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68505f493dfe4-YO3uBI.tmp to C:\Users\sampa\Local Sites\site2018\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750097604/wp-content/themes/hera/images/contato_bg.jpg
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-16 18:15:37] [class-ss-page.php:119] Checking Content Identical:0855d8befb2f7dab62c199d884527f12e5be08ee===. Value: FALSE
+[2025-06-16 18:15:37] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 30 pages/files
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-16 18:15:37] [class-ss-fetch-urls-task.php:69] Total pages: 30; Pages remaining: 0
+[2025-06-16 18:15:37] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 30 of 30 pages/files
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:233] We've found our next task: create_zip_archive
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:194] Current task: create_zip_archive
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:208] Performing task: create_zip_archive
+[2025-06-16 18:15:37] [class-ss-create-zip-archive.php:85] Fetching list of files to include in zip
+[2025-06-16 18:15:37] [class-ss-create-zip-archive.php:94] Creating zip archive
+[2025-06-16 18:15:37] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a download href="http://site2018.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1750097604.zip">Click here to download</a>
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-06-16 18:15:37] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-06-16 18:15:37] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-06-16 18:15:37] [class-ss-archive-creation-job.php:414] Status message: [done] Done! Finished in 00:02:13
